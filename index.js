@@ -6,11 +6,11 @@ const suspenso= "false"
 const valorMensalidade= 120
 const valorPago= 120
 
-let nivelAcesso= "Aguardando"
-let situacaoAcesso= "Aguardando"
-let situacaoPagamento= "Aguardando"
-let troco= 0
-let situacaoFinal= "Aguardando"
+let nivelAcesso
+let situacaoAcess
+let situacaoPagamento
+let troco
+let situacaoFinal
 
 if(idade>= 18) {
     console.log("Idade permitida")
@@ -62,7 +62,8 @@ valor pago: ${valorPago}
 troco: &{troco}
 do acesso: ${situacaoAcesso}
 faça o pagamento: ${situacaoPagamento}
-situação final; ${situacaoFinal`)
+situação final: ${situacaoFinal}
+`)
 
 console.log(resumo)
 
@@ -74,8 +75,11 @@ possuiMatricula,
 suspenso,
 valorMensalidade,
 valorPago,
+idadeStatus,
+nivelAcesso,
+acessoStatus,
+pagamentoStatus,
 troco,
-situacaoAcesso,
-situacaoPagamento,
-situacaoFinal,
+statusAula,
+resumo,
 }
