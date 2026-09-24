@@ -1,1 +1,1 @@
-# exercy-3
+# LIBERAÇÃO DE AULA COLETIVA
